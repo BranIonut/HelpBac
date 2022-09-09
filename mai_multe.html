@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <title>Acasă - Help Bac</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html" style="text-decoration: none; color: black"><h1>Help Bac</h1></a>
+    </div>
+    <div class="date-contact">
+        <h1>Ai întrebări sau vrei să aduci completări continutului acestei pagini?</h1>
+        <h3>Ne poti contacta prin email sau pe paginile noastre de social media</h3>
+        <p class="mailadress">helpbac2022@gmail.com</p>
+        <a href="mailto:business@alexwinery.ro">Accesează e-mail</a>
+    </div>
+    <footer>
+        <h1>Ne găsești și pe:</h1>
+        <div class="links_social_media">
+            <a href=""><img src="icons/facebook-circle-logo-24.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/helpbac_ro/"><img src="icons/instagram-logo-24.png" alt="Instagram"></a>
+            <a href=""><img src="icons/whatsapp-logo-24 (1).png" alt="Whatsapp"></a>
+        </div>
+        <h3>Copyright &copy; Axel 2022</h3>
+    </footer>
+    <script>
+        var toggler = document.getElementsByClassName("caret");
+        var i;
+
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function () {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                this.classList.toggle("caret-down");
+            });
+        } 
+    </script>
+</body>
+
+</html>
